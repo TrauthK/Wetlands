@@ -1,0 +1,25 @@
+f_infiltrationRaster.py  script needs most of these data be inputs as raster data inside the geodatabase named (Infiltration.gdb):
+ Inputs:-
+        
+        duration; time for run in hrs.
+	p; precipitation should be eneterd in the  form described in the script.
+	to; initail time with zero value-(Raster)
+	watermask3= 0 if the vegetation is deciduous, 1 if the vegetation is miscellaneous (grass), and 2 if no vegetation (bare)-(Raster)
+  	wp; water content at willting point as percent-(Raster)
+	Et0; mean evapotraspiration in cm/hr for first vegetation zone for a specific month-(Raster)
+	Et1; mean evapotraspiration in cm/hr for second vegetation zone for a specific month-(Raster)
+	Et2; mean evaporation in cm/hr for non-vegetation zone for a specific month-(Raster)
+	minElevation; optional lowest point at the wetland in meter
+	maxElevation; optional highest point of pour point in meter
+	phead, pressure head at the front view-(Raster)
+	ks; hydraulic conductivity cm/hr-(Raster)
+	wci; initail water content-(Raster)
+	wcs; water content at saturation-(Raster)
+	fc; water content at field capacity-(Raster)
+	
+Outputs:-
+     Raster maps for infiltration rate in cm/hr inside the geodata file
+     Many other raster maps necessary to process the infiltration rate 
+     
+    
+***make sure that folder path in python script is right*** 
