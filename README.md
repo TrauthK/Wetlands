@@ -1,0 +1,2 @@
+# Wetlands
+This is the Final Version of both raster and vector of infiltration by the Green Ampt Model, the script can be used to compute the infiltration, evapotranspiration, Evaporation from open surface water, and other important components based on water content computation, the results will be gis maps for the hydrological components as well as the text file for infiltration, ET, and water content per hour.
